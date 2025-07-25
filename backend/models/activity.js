@@ -11,7 +11,7 @@ const activityLogSchema = new Schema(
       type: String,
       required: true,
       enum: [
-        "created_task",
+        "created_task", 
         "updated_task",
         "created_subtask",
         "updated_subtask",
